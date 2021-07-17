@@ -1,6 +1,5 @@
-const a = 5;
+const daysOfWeek = ["mon", "tue", "wed", "thu", "fri", "sat"];
+console.log(daysOfWeek);
 
-console.log("asdasd");
-console.log(a+2);
-console.log(a-2);
-console.log(a*2);
+daysOfWeek.push("sun");
+console.log(daysOfWeek);
